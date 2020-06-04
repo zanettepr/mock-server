@@ -1,6 +1,7 @@
 module.exports = {
 
     postPessoaAtiva: () => {
+        
         return {
             id: 1,
             nome: 'Paulo Zanette',
@@ -9,6 +10,7 @@ module.exports = {
     },
 
     postPessoaInativa: () => {
+        
         return {
             id: 2,
             nome: 'Paulo Henrique',

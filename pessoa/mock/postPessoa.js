@@ -15,9 +15,9 @@ module.exports = {
         const dadosResponse = require('../data/postPessoa.js');
 
         switch(req.body.pessoaId) {
-            case 1:
+            case '1':
                 return res.send(dadosResponse.postPessoaAtiva());
-            case 2:
+            case '2':
                 return res.send(dadosResponse.postPessoaInativa());
             default:
                 return res.send(404,
