@@ -1,0 +1,13 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "Mock Server com getSandbox",
+  "main": "index.js",
+  "scripts": {
+    "mock-win": "java -jar sandbox --port=8080 run",
+    "mock-lin-mac": "./sandbox run"
+  },
+  "keywords": [],
+  "author": "Paulo Zanette",
+  "license": "ISC"
+}
