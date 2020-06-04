@@ -1,11 +1,11 @@
 module.exports = {
 
-    verificarParametroObrigatorio: (req, parametros) => {
+    verificarParametroObrigatorio: (req, parametro) => {
 
-        for(let i = 0; i < parametros.length; i++) {
+        for(let i = 0; i < parametro.length; i++) {
 
             req.check(
-                parametros[i], `${parametros[i]} deve ser informado.`
+                parametro[i], `${parametro[i]} deve ser informado.`
             ).notEmpty();
         }
 
