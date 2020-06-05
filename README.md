@@ -8,7 +8,7 @@ Este repositório tem como objetivo a criação de mocks de API's Rest.
 
 Rotas mockadas:
 
- - #baseUrl: localhost:8080
+ # baseUrl: localhost:8080
  - Rota 1: baseURL/pessoa
     - Método: GET
     - Parâmetro: pessoaId
@@ -30,7 +30,7 @@ VS Code
 Postman
 ```
 
-### Para subir os mocks localhost, use os comandos abaixo configurados no arquivo package.json:
+### Para subir os mocks em localhost, use os comandos abaixo configurados no arquivo package.json:
 ```terminal
 Windows
 $~ npm run mock-win
