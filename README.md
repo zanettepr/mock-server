@@ -19,7 +19,7 @@ Rotas mockadas:
               "pessoaId": ""
             }
     - Valores com resultado: 1 ou 2
- - Rota 3: baseURL/carro/{}
+ - Rota 3: baseURL/carro/{carroId}
     - Método: GET
     - Valores com resultado: 1 ou 2
 
