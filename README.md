@@ -8,7 +8,7 @@ Este repositório tem como objetivo a criação de mocks de API's Rest.
 
 Rotas mockadas:
 
- #### baseUrl: localhost:8080
+ - baseUrl: localhost:8080
  - Rota 1: baseURL/pessoa
     - Método: GET
     - Parâmetro: pessoaId
